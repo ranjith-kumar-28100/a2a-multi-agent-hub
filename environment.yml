@@ -1,0 +1,25 @@
+name: a2a-agents
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - a2a-sdk[http-server]>=0.3.0
+      - langgraph>=0.4.1
+      - langchain-openai>=0.3.0
+      - crewai[tools]>=0.95.0
+      - azure-ai-inference
+      - pytest
+      - pytest-asyncio
+      - google-adk>=1.2.0
+      - litellm>=1.50.0
+      - openai>=1.50.0
+      - streamlit>=1.40.0
+      - httpx>=0.28.0
+      - uvicorn>=0.34.0
+      - starlette>=0.46.0
+      - python-dotenv>=1.1.0
+      - pydantic>=2.11.0
+      - click>=8.1.0
