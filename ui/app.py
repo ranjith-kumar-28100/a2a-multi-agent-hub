@@ -249,6 +249,7 @@ with st.sidebar:
     status = st.session_state.agent_status
 
     # Arithmetic Agent Card
+    # This code is done RKG
     arith = status["arithmetic"]
     arith_status = "connected" if arith["connected"] else "disconnected"
     arith_icon = "🟢" if arith["connected"] else "🔴"
